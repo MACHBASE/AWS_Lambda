@@ -23,7 +23,7 @@ def lambda_handler(event, context):
 
 
 def append_data():
-    ip = "123.143.222.106"
+    ip = "127.0.0.1"
     port = 5656
     tablename = 'TAG'
     records = 10
@@ -85,7 +85,7 @@ def append_data():
 
 
 def insert_data():
-    ip = "123.143.222.106"
+    ip = "127.0.0.1"
     port = 5656
     
     db = machbase()
@@ -122,7 +122,7 @@ def insert_data():
     return result
 
 def connect_machbase():
-    ip = "123.143.222.106"
+    ip = "127.0.0.1"
     port = 5656
     
     db = machbase()
