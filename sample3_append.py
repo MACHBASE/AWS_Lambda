@@ -8,7 +8,7 @@ from machbaseAPI.machbaseAPI import machbase
 def lambda_handler(event, context):
     #("machbase append sample")
 
-    ip = "123.143.222.106"
+    ip = "127.0.0.1"
     port = 5656
     tablename = 'TAG'
     records = 10
