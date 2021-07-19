@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     print("machbase connection sample")
 
     db = machbase()
-    if db.open('123.143.222.106','SYS','MANAGER',5656) is 0 :
+    if db.open('127.0.0.1','SYS','MANAGER',5656) is 0 :
         result = db.result()
 
     if db.execute('select * from m$tables') is 0 :
